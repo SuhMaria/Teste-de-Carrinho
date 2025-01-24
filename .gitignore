@@ -1,0 +1,21 @@
+# Ignorar dependências de pacotes
+node_modules/
+
+# Ignorar arquivos de configuração de Cypress que não precisam ser compartilhados
+cypress/videos/
+cypress/screenshots/
+
+# Ignorar arquivos de log
+cypress/logs/
+
+# Ignorar configurações específicas do editor (Ex: VS Code)
+.vscode/
+
+# Ignorar arquivos de build ou de saída temporária
+dist/
+
+# Ignorar arquivos de lock caso não queira versioná-los
+package-lock.json
+
+# Ignorar arquivos de ambiente, caso use algum (ex: .env)
+.env
